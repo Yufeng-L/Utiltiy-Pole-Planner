@@ -1,3 +1,3 @@
-# EC601 5G utility pole planner project
+# EC601 5G Utility Pole Planner 
 5G utility pole planner
 
