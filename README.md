@@ -1,18 +1,21 @@
 # EC601 5G Utility Pole Planner 
-5G utility pole planner
+Hello, this is the readme of 5G Utility Pole Planner.
 
-### Team member: Yufeng Lin, Yuan Wei, Junyou Chi
+### Team member: 
+- Yufeng Lin | yflin@bu.edu
+- Yuan Wei   | yuanwei@bu.edu
+- Junyou Chi | chi12@bu.edu
 
 
 ## Introduction
 
 
 ## Product Definition
-- __Product Mission__
+## Product Mission
 
-- __Target User(s)__
+## Target User(s)
 
-- __User Stories__
-- __MVP__
+## User Stories
+## MVP
 
 
