@@ -8,5 +8,11 @@
 
 
 ## Product Definition
+- __Product Mission__
+
+- __Target User(s)__
+
+- __User Stories__
+- __MVP__
 
 
