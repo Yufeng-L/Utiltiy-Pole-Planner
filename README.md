@@ -8,11 +8,7 @@ Hello, this is the readme of 5G Utility Pole Planner.
 
 
 ## Introduction
-Mobile communications has brought about profound changes in people's lives. In order to cope with a burst of traffic growth in 2020, the industry is witnessing the arrival of massive device connections, and emerging new services and scenarios, and celebrating the fifth generation of mobile communications. 
 
-Massive MIMO is one of the most important 5G technologies. It will significantly change the traditional network planning, which is based on sector-level wide beams. The antenna pattern of MassiveMIMOisnolongerasector-levelfixedwidebeam,buthas been replaced with user-centric dynamic narrow beams instead. The shape of massive MIMO antenna is always a huge rectangular box.The face is that 5G Utility base station requires much larger space compared with 3G/4G base stations which has required measurement and evaluation towards now exsting poles. However, manually evaluating is time consuming and costly. Telecom compamy need a high-efficient way for pole evaluation.  
- (PHOTO) 
- 
 This project is going use Google Street Imagery to model every utiltiy pole in a neighborhood and find a match to install certain equipment. Machine learning & Computer Visions will help us analyze the photos of utility poles and finally display results on web application.
 
 ## Product Definition
