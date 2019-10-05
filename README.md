@@ -26,7 +26,7 @@ Target users are the Telecom Companies.
 
 
 ## Product Survey
-- Exisiting similar products &nbsp
+- Exisiting similar products &nbsp;
 As we google "5G United States", we can find the following information:
 ![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/5G_info.png)
 
