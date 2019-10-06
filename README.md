@@ -9,7 +9,7 @@ Hello, this is the readme of 5G Utility Pole Planner.
 
 ## Introduction
 
-This project is going use Google Street Imagery to model every utiltiy pole in a neighborhood and find a match to install certain equipment. Machine learning & Computer Visions will help us analyze the photos of utility poles and finally display results on web application.
+This project is going to use Google Street Imagery to model every utiltiy pole in a neighborhood and find a match to install certain equipment. Machine learning & Computer Visions will help us analyze the photos of utility poles and finally display results on web application. (Initial Plan, may be subject to change)
 
 ## Product Definition
 ### __Product Mission__
