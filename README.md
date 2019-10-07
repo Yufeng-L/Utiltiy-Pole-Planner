@@ -28,7 +28,7 @@ Target users are the Telecom Companies.
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/img/SampleCo_42.3501688_-71.106852_95.JPG)
 
 ### Target Image to Analyze
-![ex2](https://www.google.com/search?q=utility+pole+image&tbm=isch&source=univ&sa=X&ved=2ahUKEwiu4735gIvlAhUBwFkKHXwUDgAQsAR6BAgHEAE&biw=1164&bih=655#imgrc=OuhmJInDnNFI3M:)
+![ex2]
 
 
 ## Product Survey
@@ -53,6 +53,7 @@ Some of the important patents are shows below:
 
 __Reference__: https://www.lifewire.com/5g-availability-us-4155914
 
+__Img Reference__ :https://blog.plover.com/tech/utility-poles.html
 
 
 Mobile communications has brought about profound changes in people's lives. In order to cope with a burst of traffic growth in 2020, the industry is witnessing the arrival of massive device connections, and emerging new services and scenarios, and celebrating the fifth generation of mobile communications.
