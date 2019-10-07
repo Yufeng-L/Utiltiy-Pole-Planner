@@ -28,7 +28,7 @@ Target users are the Telecom Companies.
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/img/SampleCo_42.3501688_-71.106852_95.JPG)
 
 ### Target Image to Analyze
-![ex2]
+![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/eximg.jpg)
 
 
 ## Product Survey
