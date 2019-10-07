@@ -27,6 +27,9 @@ Target users are the Telecom Companies.
 ### Example of Image through Google Street View Api
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/img/SampleCo_42.3501688_-71.106852_95.JPG)
 
+### Target Image to Analyze
+![ex2](https://www.google.com/search?q=utility+pole+image&tbm=isch&source=univ&sa=X&ved=2ahUKEwiu4735gIvlAhUBwFkKHXwUDgAQsAR6BAgHEAE&biw=1164&bih=655#imgrc=OuhmJInDnNFI3M:)
+
 
 ## Product Survey
 - Exisiting similar products<br/>
