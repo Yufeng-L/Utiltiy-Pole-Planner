@@ -50,7 +50,16 @@ Some of the important patents are shows below:
 (2)making a judgment as to whether the extracted candidate for the predetermined object image is or is not the predetermined object image.  
 (3)A learning method for a neural network comprises the steps of extracting a target object image, for which learning operations are to be carried out, from an image, feeding a signal, which represents the extracted target object image, into a neural network, and carrying out the learning operations of the neural network in accordance with the input target object image.
  
-
+## System Design
+ __Language__ <br/>
+  Python
+ __Major Components to use__ <br/>
+ Google Street View API, OPENCV library for image processing for sprint1
+ 
+ __Flowchart__ <br/>
+ (Still Working on it>
+ 
+ 
 __Reference__: https://www.lifewire.com/5g-availability-us-4155914
 
 __Img Reference__ :https://blog.plover.com/tech/utility-poles.html
