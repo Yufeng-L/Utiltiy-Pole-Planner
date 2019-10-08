@@ -37,7 +37,7 @@ As we google "5G United States", we can find the following information:
 ![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/5G_info.png)
 
 ### Patent Analysis
-Some of the important patents are shows below:
+Some of the important patents are shown below:
 
 1. [Method for Measuring Real Size of Object Using Camera of Mobile Terminal - US20120224052A1](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20120224052.PGNR.)  
 (1)recognizing an object image taken using a camera of a mobile terminal  
