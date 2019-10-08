@@ -24,10 +24,10 @@ Target users are the Telecom Companies.
 ### __MVP(Minimum viable product)__
 5G is the fifth generation cellular network technology. In this project, the most important mission is to determine if a specific utility pole has space to install the 5G equipment, and the next step is consider the distribution of installations.
 
-### Example of Image through Google Street View Api
+### Example of Image using Google Street View Api
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/img/SampleCo_42.3501688_-71.106852_95.JPG)
 
-### Target Image to Analyze
+### Example of Target Image to Analyze
 ![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/eximg.jpg)
 
 
@@ -55,6 +55,7 @@ Some of the important patents are shows below:
   Python      <br/>
  __Major Components to use:__ <br/>
  Google Street View API, OPENCV library for image processing for sprint1
+
  
  __Flowchart:__ <br/>
  (Still Working on it>
