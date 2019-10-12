@@ -25,10 +25,10 @@ Target users are the Telecom Companies.
 5G is the fifth generation cellular network technology. In this project, the most important mission is to determine if a specific utility pole has space to install the 5G equipment, and the next step is consider the distribution of installations.
 
 ### Example of Image using Google Street View Api
-![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/img/SampleCo_42.3501688_-71.106852_95.JPG)
+![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/SampleCo_42.3502517_-71.107573_95.JPG)
 
 ### Example of Target Image to Analyze
-![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/eximg.jpg)
+![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/master/eximg.jpg)
 
 
 ## Product Survey
