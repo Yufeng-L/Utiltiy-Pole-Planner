@@ -34,7 +34,7 @@ Target users are the Telecom Companies.
 ## Product Survey
 - Exisiting similar products<br/>
 As we google "5G United States", we can find the following information:
-![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/5G_sprint1/5G_info.png)
+![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/master/5G_info.png)
 
 ### Patent Analysis
 Some of the important patents are shown below:
