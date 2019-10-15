@@ -55,10 +55,14 @@ Some of the important patents are shown below:
   Python      <br/>
  __Major Components to use:__ <br/>
  Google Street View API, OPENCV library for image processing for sprint1
+ 
+## Flowchart
+
+![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/systemdesign.png)
+
 
  
- __Flowchart:__ <br/>
- (Still Working on it>
+ 
  
  
 __Reference__: https://www.lifewire.com/5g-availability-us-4155914
