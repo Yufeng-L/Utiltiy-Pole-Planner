@@ -31,6 +31,7 @@ Target users are the Telecom Companies.
 ![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/eximg.jpg)
 
 <br/>
+
 ### :warning: Images are grabbed from different websites, only used for educational/learning purpose :warning:
 
 ## Product Survey
@@ -56,7 +57,7 @@ Some of the important patents are shown below:
  __Language:__ <br/>
   Python      <br/>
  __Major Components to use:__ <br/>
- Google Street View API, OPENCV library for image processing for sprint1
+ Google Street View API, OPENCV library for image processing for sprint1 <br/>
  Tensorflow, LabelImg, YOLO used for Image label and classification for sprint2
  
 ## Flowchart
