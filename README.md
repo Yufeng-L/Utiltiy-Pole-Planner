@@ -30,6 +30,8 @@ Target users are the Telecom Companies.
 ### Example of Target Image to Analyze
 ![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/master/eximg.jpg)
 
+### :warning: Images are grabbed from different websites, only used for educational/learning purpose :warning:
+
 
 ## Product Survey
 - Exisiting similar products<br/>
