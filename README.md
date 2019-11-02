@@ -25,18 +25,32 @@ Target users are the Telecom Companies.
 5G is the fifth generation cellular network technology. In this project, the most important mission is to determine if a specific utility pole has space to install the 5G equipment, and the next step is consider the distribution of installations.
 
 ### Example of Image using Google Street View Api
+<<<<<<< HEAD
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/SampleCo_42.3502517_-71.107573_95.JPG)
 
 ### Example of Target Image to Analyze
 ![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/master/eximg.jpg)
 
 ### :warning: Images are grabbed from different websites, only used for educational/learning purpose :warning:
+=======
+![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/img/SampleCo_42.3502517_-71.107573_95.JPG)
 
+### Example of Target Image to Analyze
+![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/eximg.jpg)
+>>>>>>> sprint2
+
+<br/>
+
+### :warning: Images are grabbed from different websites, only used for educational/learning purpose :warning:
 
 ## Product Survey
 - Exisiting similar products<br/>
 As we google "5G United States", we can find the following information:
+<<<<<<< HEAD
 ![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/master/5G_info.png)
+=======
+![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/5G_info.png)
+>>>>>>> sprint2
 
 ### Patent Analysis
 Some of the important patents are shown below:
@@ -56,11 +70,16 @@ Some of the important patents are shown below:
  __Language:__ <br/>
   Python      <br/>
  __Major Components to use:__ <br/>
- Google Street View API, OPENCV library for image processing for sprint1
+ Google Street View API, OPENCV library for image processing for sprint1 <br/>
+ Tensorflow, LabelImg, YOLO used for Image label and classification for sprint2
+ 
+## Flowchart
+
+![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/systemdesign.png)
+
 
  
- __Flowchart:__ <br/>
- (Still Working on it>
+ 
  
  
 __Reference__: https://www.lifewire.com/5g-availability-us-4155914
