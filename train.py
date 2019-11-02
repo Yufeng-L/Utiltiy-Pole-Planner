@@ -10,10 +10,9 @@ import matplotlib.pyplot as plt
 
 #set size
 batch_size = 64
-epochs = 15
+epochs = 30
 IMG_HEIGHT = 150
 IMG_WIDTH = 150
-
 
 PATH = '/Users/linyufeng/desktop/dataset'
 #set path for dataset
@@ -107,7 +106,7 @@ model.summary()
 history = model.fit_generator(
     train_data_gen,
     steps_per_epoch=total_train // batch_size,
-    epochs= 15,
+    epochs= epochs,
     validation_data=val_data_gen,
     validation_steps=total_val // batch_size
 )
