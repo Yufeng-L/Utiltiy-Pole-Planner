@@ -18,6 +18,7 @@ For Telecom Company to determine where to install the 5G equipments on utility p
 ### __Target User(s)__
 Target users are the Telecom Companies.
 ### __User Stories__
+- I, the telecom company, should be able to identify if there is utility pole on screen/image.
 - I, the telecom company, should be able to identify if a specific utility pole has enough space to install the 5G equipment.
 - I, the telecom company, should be able to see the qualified utility poles on a specific area.
 
@@ -25,19 +26,10 @@ Target users are the Telecom Companies.
 5G is the fifth generation cellular network technology. In this project, the most important mission is to determine if a specific utility pole has space to install the 5G equipment, and the next step is consider the distribution of installations.
 
 ### Example of Image using Google Street View Api
-<<<<<<< HEAD
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/SampleCo_42.3502517_-71.107573_95.JPG)
 
 ### Example of Target Image to Analyze
 ![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/master/eximg.jpg)
-
-### :warning: Images are grabbed from different websites, only used for educational/learning purpose :warning:
-=======
-![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/img/SampleCo_42.3502517_-71.107573_95.JPG)
-
-### Example of Target Image to Analyze
-![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/eximg.jpg)
->>>>>>> sprint2
 
 <br/>
 
@@ -46,11 +38,7 @@ Target users are the Telecom Companies.
 ## Product Survey
 - Exisiting similar products<br/>
 As we google "5G United States", we can find the following information:
-<<<<<<< HEAD
 ![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/master/5G_info.png)
-=======
-![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/5G_info.png)
->>>>>>> sprint2
 
 ### Patent Analysis
 Some of the important patents are shown below:
@@ -77,12 +65,17 @@ Some of the important patents are shown below:
 
 ![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/systemdesign.png)
 
+## Training via Tensorflow
+After doing image classification between poles and nopoles, here is the traning result for sprint2. (Results still need to be optimized. Validation rate is not high enough)
+![tfres](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res.png)
 
+## Training via YOLO
  
  
  
  
-__Reference__: https://www.lifewire.com/5g-availability-us-4155914
+__Reference__: https://www.lifewire.com/5g-availability-us-4155914 <br/>
+https://github.com/hardikvasa/google-images-download
 
 __Img Reference__ :https://blog.plover.com/tech/utility-poles.html
 
