@@ -58,18 +58,22 @@ Some of the important patents are shown below:
  __Language:__ <br/>
   Python      <br/>
  __Major Components to use:__ <br/>
- Google Street View API, OPENCV library for image processing for sprint1 <br/>
- Tensorflow, LabelImg, YOLO used for Image label and classification for sprint2
+ Google Street View API, OPENCV library for image processing for __sprint1__ <br/>
+ Tensorflow, LabelImg, YOLO used for Image label and classification for __sprint2__
+ 
  
 ## Flowchart
-
 ![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/systemdesign.png)
 
 ## Training via Tensorflow
-After doing image classification between poles and nopoles, here is the traning result for sprint2. (Results still need to be optimized. Validation rate is not high enough)
+After doing image classification between poles and nopoles, here is the traning result for sprint2. Here is the training result for 15 epochs. (Results still need to be optimized. Validation rate is not high enough)
 ![tfres](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res.png)
 
+Here is the result when epoch = 30. As we can see, comparing with the result above, the accurary is higher and the loss is lower. The value of epochs is related to the training accuracy.
+![tfresepo30](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res_epoch30.png)
+
 ## Training via YOLO
+<br/>
  
  
  
