@@ -69,8 +69,12 @@ Some of the important patents are shown below:
 After doing image classification between poles and nopoles, here is the traning result for sprint2. Here is the training result for 15 epochs. (Results still need to be optimized. Validation rate is not high enough)
 ![tfres](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res.png)
 
-Here is the result when epoch = 30. As we can see, comparing with the result above, the accurary is higher and the loss is lower. The value of epochs is related to the training accuracy.
+Here is the result when epoch = 30. As we can see, comparing with the result above, the accurary is higher and the loss is lower. The value of epochs is related to the training accuracy. (Para: Batch size = 64, Epochs = 30)
 ![tfresepo30](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res_epoch30.png)
+
+Here is the result when epoch = 60. (Para: Batch size = 128, Epochs = 60)
+![tfresepo60](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res_epoch60.png)
+
 
 ## Training via YOLO
 <br/>
@@ -80,9 +84,6 @@ Here is the result when epoch = 30. As we can see, comparing with the result abo
  
 __Reference__: https://www.lifewire.com/5g-availability-us-4155914 <br/>
 https://github.com/hardikvasa/google-images-download
+http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=6728404.PN.
 
 __Img Reference__ :https://blog.plover.com/tech/utility-poles.html
-
-
-Mobile communications has brought about profound changes in people's lives. In order to cope with a burst of traffic growth in 2020, the industry is witnessing the arrival of massive device connections, and emerging new services and scenarios, and celebrating the fifth generation of mobile communications.
-http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=6728404.PN.
