@@ -82,8 +82,10 @@ Here is the result when epoch = 60. (Para: Batch size = 128, Epochs = 60)
  
  
  
-__Reference__: https://www.lifewire.com/5g-availability-us-4155914 <br/>
-https://github.com/hardikvasa/google-images-download
+__Reference__: <br/>
+https://www.lifewire.com/5g-availability-us-4155914 <br/>
 http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PALL&s1=6728404.PN.
 
-__Img Reference__ :https://blog.plover.com/tech/utility-poles.html
+__Img Reference__ : <br/>
+https://blog.plover.com/tech/utility-poles.html <br/>
+https://github.com/hardikvasa/google-images-download 
