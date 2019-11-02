@@ -9,8 +9,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #set size
-batch_size = 64
-epochs = 30
+batch_size = 128
+epochs = 60
 IMG_HEIGHT = 150
 IMG_WIDTH = 150
 
