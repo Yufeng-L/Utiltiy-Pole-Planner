@@ -14,6 +14,7 @@ epochs = 15
 IMG_HEIGHT = 150
 IMG_WIDTH = 150
 
+
 PATH = '/Users/linyufeng/desktop/dataset'
 #set path for dataset
 train_PATH = os.path.join(PATH,'train')#'/Users/linyufeng/desktop/'
