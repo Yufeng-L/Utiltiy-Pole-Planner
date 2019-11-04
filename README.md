@@ -83,7 +83,6 @@ Here is the result when epoch = 60. (Para: Batch size = 128, Epochs = 60)
 
 the latest version, YOLOv3, was applied in our object detection program.
 
-### Why we use YOLO?
 
 ### Procedure
 
