@@ -77,7 +77,128 @@ Here is the result when epoch = 60. (Para: Batch size = 128, Epochs = 60)
 
 
 ## Training via YOLO
-<br/>
+<p>&nbsp;</p>
+<h2>YOLO </h2>
+<p>the latest version, YOLOv3, was applied in our object detection program.</p>
+<h3>Why we use YOLO?</h3>
+<h3>Procedure</h3>
+<p>	Basiclly,The procedure is devided into three part establishing dataset, traning our data and test it.</p>
+<h5>	Establish Dataset </h5>
+<ul>
+<li><p>We use <strong>*LabelImg*.py</strong> to annotate our training data. Anotation will be saved in coordinates as txt. You can also see the details <a href='https://github.com/tzutalin/labelImg#macos'>here</a>.</p>
+<p>Type the following command to make sure you meet the requirements.</p>
+<pre><code>brew install python3
+pip install pipenv
+pipenv --three
+pipenv shell
+pip install py2app
+pip install PyQt5 lxml
+make qt5py3
+rm -rf build dist
+python setup.py py2app -A
+mv &quot;dist/labelImg.app&quot; /Applications
+</code></pre>
+<h5>Annotation </h5>
+<ul>
+<li>In data/predefined_classes.txt define the list of classes that will be used for your training. In my case, I just defined <strong>utility poles</strong>.</li>
+<li>Build and launch using the instructions above.</li>
+<li>Right below &quot;Save&quot; button in toolbar, click &quot;PascalVOC&quot; button to switch to YOLO format.</li>
+<li>You may use Open/OpenDIR to process single or multiple images. When finished with single image, click save.</li>
+<li>A txt file of yolo format will be saved in the same folder as your image with same name. A file named &quot;classes.txt&quot; is saved to that folder too. &quot;classes.txt&quot; defines the list of class names that your yolo label refers to.</li>
+
+</ul>
+<p>Note:</p>
+<ul>
+<li>Your label list shall not change in the middle of processing a list of images. When you save a image, classes.txt will also get updated, while previous annotations will not be updated.</li>
+<li>You shouldn&#39;t use &quot;default class&quot; function when saving to YOLO format, it will not be referred.</li>
+<li>When saving as YOLO format, &quot;difficult&quot; flag is discarded.</li>
+
+</ul>
+</li>
+
+</ul>
+<p>（图片 label img）</p>
+<p>		after anotation, you should get bunches of .txt files like this</p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104112732769.png" referrerpolicy="no-referrer" alt="image-20191104112732769"></p>
+<p>&nbsp;</p>
+<p>Open one .txt file, the output should be:</p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104112910646.png" referrerpolicy="no-referrer" alt="image-20191104112910646"></p>
+<p>Where, 0 is the predefined index for class utility poles, the other for float number is the coordiantes we annotated in picture. Each row represets a rectangular annotation</p>
+<h5>Training &amp; test set file path </h5>
+<p>&nbsp;</p>
+<p>here we use process.py to generate，take the python file to the picture folder and run it. This script file generate 2 .txt file named train.txt and test.txt.</p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104114221285.png" referrerpolicy="no-referrer" alt="image-20191104114221285"></p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104113942320.png" referrerpolicy="no-referrer" alt="image-20191104113942320"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5>Training </h5>
+<p>Note: we do the trainning in the Windows PC using Nvida GPU for accelartion.</p>
+<p>Before we stat we should make 3 config files names voc.data, voc.names, yolov3-voc.cfg.</p>
+<p>voc.data:</p>
+<pre><code>classes= 1
+train  = （your path）+pole_train.txt
+valid  = （your path）+pole_test.txt
+#difficult = data/difficult_2007_test.txt
+names = data/voc.names
+backup = (path where you want to save)
+
+
+</code></pre>
+<p>&nbsp;</p>
+<p>voc.name:</p>
+<pre><code>utility poles
+</code></pre>
+<p>Note the name and number of rows should be same as your predefined_classes.txt in our annotation software</p>
+<p>yolov3-voc.cfg:</p>
+<p>for each [yolo] and adjacent [convolutional],make following changes to them</p>
+<pre><code>[convolutional]
+size=1
+stride=1
+pad=1
+filters=18 # class=1 filter=18
+activation=linear
+
+[yolo]
+mask = 6,7,8
+anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326
+classes=1 #only 1 class: utility poles
+num=9
+jitter=.3
+ignore_thresh = .5
+truth_thresh = 1
+random=1
+</code></pre>
+<p>&nbsp;</p>
+<p>After we finish this, we can begin our tranning.</p>
+<p>Download the darknet using the these comand:</p>
+<pre><code>git clone https://github.com/pjreddie/darknet.git
+cd darknet
+make
+</code></pre>
+<p>Type the code to see whether you successfually </p>
+<pre><code>./darknet
+</code></pre>
+<p>you will get:</p>
+<pre><code>usage: ./darknet &lt;function&gt;
+</code></pre>
+<p>&nbsp;</p>
+<p>Let&#39;s start brutally, </p>
+<pre><code>darknet.exe detector train .\data\voc.data yolov3-voc.cfg .\weights_pr\darknet53.conv.74 .\results_mine
+</code></pre>
+<p>we can have series output in our cmd window:</p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104120811296.png" referrerpolicy="no-referrer" alt="image-20191104120811296"></p>
+<p>&nbsp;</p>
+<p>now we can do is to drink a cup of tea/coffee. Enjoy the sunshine and take a nap.</p>
+<p>Note: if you use CPU to deal with the traning part,  you can sleep for the whole day.</p>
+<pre><code> avg - average loss (error) - the lower, the better
+</code></pre>
+<p>ResultL:</p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104121132711.png" referrerpolicy="no-referrer" alt="image-20191104121132711"></p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104113851516.png" referrerpolicy="no-referrer" alt="image-20191104113851516"></p>
+<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104121151847.png" referrerpolicy="no-referrer" alt="image-20191104121151847"></p>
+<p>&nbsp;</p>
+<p> </p>
+
  
  
  
