@@ -193,11 +193,8 @@ make
 <pre><code> avg - average loss (error) - the lower, the better
 </code></pre>
 <p>ResultL:</p>
-<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104121132711.png" referrerpolicy="no-referrer" alt="image-20191104121132711"></p>
-<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104113851516.png" referrerpolicy="no-referrer" alt="image-20191104113851516"></p>
-<p><img src="file:///Users/yuanwei/Library/Application%20Support/typora-user-images/image-20191104121151847.png" referrerpolicy="no-referrer" alt="image-20191104121151847"></p>
-<p>&nbsp;</p>
-<p> </p>
+![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104112732769.png)
+
 
  
  
