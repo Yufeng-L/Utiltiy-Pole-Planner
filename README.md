@@ -126,13 +126,13 @@ the latest version, YOLOv3, was applied in our object detection program.
 
 ​		after anotation, you should get bunches of .txt files like this
 
-![image-20191104112732769](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104112732769.png)
+![image-20191104112732769](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104112732769.png)
 
 
 
 Open one .txt file, the output should be:
 
-![image-20191104112910646](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104112910646.png)
+![image-20191104112910646](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104112910646.png)
 
 Where, 0 is the predefined index for class utility poles, the other for float number is the coordiantes we annotated in picture. Each row represets a rectangular annotation
 
@@ -142,9 +142,9 @@ Where, 0 is the predefined index for class utility poles, the other for float nu
 
 here we use process.py to generate，take the python file to the picture folder and run it. This script file generate 2 .txt file named train.txt and test.txt.
 
-![image-20191104114221285](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104114221285.png)
+![image-20191104114221285](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104114221285.png)
 
-![image-20191104113942320](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104113942320.png)
+![image-20191104113942320](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104113942320.png)
 
 
 
@@ -250,11 +250,10 @@ Note: if you use CPU to deal with the traning part,  you can sleep for the whole
 
 ResultL:
 
-![image-20191104121132711](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104121132711.png)
+![image-20191104121132711](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104113851516.png)
+![image-20191104121151847](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104121151847.png)
+![image-20191104113851516](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104121132711.png)
 
-![image-20191104113851516](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104113851516.png)
-
-![image-20191104121151847](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104121151847.png)
 
 
 
