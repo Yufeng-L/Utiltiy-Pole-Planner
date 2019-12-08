@@ -65,15 +65,15 @@ Some of the important patents are shown below:
 ## Flowchart
 ![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/systemdesign.png)
 
-## Training via Tensorflow
+## Training via Tensorflow (Early training method)
 After doing image classification between poles and nopoles, here is the traning result for sprint2. Here is the training result for 15 epochs. (Results still need to be optimized. Validation rate is not high enough)
-![tfres](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res.png)
+![tfres](https://github.com/Yufeng-L/EC601_5G_project/blob/master/result/res.png)
 
 Here is the result when epoch = 30. As we can see, comparing with the result above, the accurary is higher and the loss is lower. The value of epochs is related to the training accuracy. (Para: Batch size = 64, Epochs = 30)
-![tfresepo30](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res_epoch30.png)
+![tfresepo30](https://github.com/Yufeng-L/EC601_5G_project/blob/master/result/res_epoch30.png)
 
 Here is the result when epoch = 60. (Para: Batch size = 128, Epochs = 60)
-![tfresepo60](https://github.com/Yufeng-L/EC601_5G_project/blob/master/res_epoch60.png)
+![tfresepo60](https://github.com/Yufeng-L/EC601_5G_project/blob/master/result/res_epoch60.png)
 
 
 ## Training via YOLO
