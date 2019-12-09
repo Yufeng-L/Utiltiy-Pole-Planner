@@ -29,7 +29,7 @@ Target users are the Telecom Companies.
 ![stex](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/SampleCo_42.3502517_-71.107573_95.JPG)
 
 ### Example of Target Image to Analyze
-![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/master/eximg.jpg)
+![ex2](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/eximg.jpg)
 
 <br/>
 
@@ -38,7 +38,7 @@ Target users are the Telecom Companies.
 ## Product Survey
 - Exisiting similar products<br/>
 As we google "5G United States", we can find the following information:
-![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/master/5G_info.png)
+![5Ginfo: ](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/5G_info.png)
 
 ### Patent Analysis
 Some of the important patents are shown below:
@@ -58,8 +58,9 @@ Some of the important patents are shown below:
  __Language:__ <br/>
   Python      <br/>
  __Major Components to use:__ <br/>
- Google Street View API, OPENCV library for image processing for __sprint1__ <br/>
- Tensorflow, LabelImg, YOLO used for Image label and classification for __sprint2__
+ __sprint1__ : Google Street View API, OPENCV library for image processing <br/>
+ __sprint2__ : Tensorflow(Image Classification), LabelImg(Image label), YOLO(Detection) <br/>
+ __sprint3__ : Create UI using python, implement google static street view api.
  
  
 ## Flowchart
@@ -120,8 +121,6 @@ the latest version, YOLOv3, was applied in our object detection program.
   - Your label list shall not change in the middle of processing a list of images. When you save a image, classes.txt will also get updated, while previous annotations will not be updated.
   - You shouldn't use "default class" function when saving to YOLO format, it will not be referred.
   - When saving as YOLO format, "difficult" flag is discarded.
-
-（图片 label img）
 
 ​		after anotation, you should get bunches of .txt files like this
 
