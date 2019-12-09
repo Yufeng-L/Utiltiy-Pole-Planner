@@ -1,38 +1,51 @@
-from MyFunctions import getImg, callYolo
+from MyFunctions import getImg, callYolo, setMap
 import sys
 import requests
 import os
+import time
 import shutil
 from PyQt5.QtWidgets import QPushButton, QApplication, QWidget, QLineEdit, QLabel, QLCDNumber
-
+from PyQt5.QtGui import QPixmap
 class WinForm(QWidget):
     def __init__(self, parent=None):
         super(WinForm, self).__init__(parent)
-        self.setGeometry(300, 300, 350, 350)
+        self.setGeometry(300, 300, 300, 400)
         self.setWindowTitle('Find Utility Pole')
         self.Run = QPushButton('Run', self)
-        self.Run.setGeometry(250, 100, 80, 40)
+        self.Run.setGeometry(240, 300, 50, 40)
         self.Run.setStyleSheet("background-color: green")
         self.Run.clicked.connect(self.run)
 
         self.Inf = QLabel(self)
-        self.Inf.move(40, 40)
+        self.Inf.move(20, 240)
         self.Inf.resize(200, 40)
         self.Inf.setText('Please type in the location')
 
 
-        self.Inline = QLineEdit(self)
-        self.Inline.move(40,100)
-        self.Inline.resize(200,40)
 
+        self.Inline = QLineEdit(self)
+        self.Inline.move(20,300)
+        self.Inline.resize(200,40)
+        self.Inline.setText('42.393885, -71.123333') 
 #        self.Outline = QLCDNumber(self)
 #        self.Outline.move(90,170)
 #        self.Outline.resize(150,80)
 #        self.Outline.setDigitCount(2)
 #        self.Outline.display(00)
 
-        self.Run.setDisabled(True)
+        self.Run.setDisabled(False)
         self.Inline.textChanged.connect(self.disableRun)
+
+
+        self.label = QLabel(self)
+        self.pixmap = QPixmap('initial.png')
+        self.label.setPixmap(self.pixmap)
+
+
+
+
+
+
 
     def disableRun(self):
 
@@ -42,21 +55,28 @@ class WinForm(QWidget):
             if ele != ' ':
                 self.Run.setDisabled(False)
 
+        
+
 
 
     def run(self):
         intxt = self.Inline.text()
         intxt = intxt.split(',')
         print(intxt)
-        if len(intxt) == 2:
-        
-        	a = float(intxt[0])
-        	b = float(intxt[1])
-        	find([a,b])
+        if len(intxt) == 2:    
+            try: 
+                a = float(intxt[0])
+                b = float(intxt[1])
+                self.Inf.setText('Please waiting')
+                setMap([a,b])
 
-        	
-        	self.Inf.setText('location is like: 42.393885, -71.123333')
-
+                pixmap = QPixmap('data/streetview/local_image.png')
+                self.label.setPixmap(pixmap)
+                find([a,b])
+                print('picture changed')
+                self.Inf.setText('Please type in the location')
+            except:
+                self.Inf.setText('location is like: 42.393885, -71.123333')
        	else:
        		self.Inf.setText('location is like: 42.393885, -71.123333')
 
