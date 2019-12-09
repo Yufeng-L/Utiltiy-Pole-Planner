@@ -250,7 +250,7 @@ ResultL:
 
 ![image-20191104121132711](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104113851516.png)
 ![image-20191104121151847](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104121151847.png)
-![image-20191104113851516](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/image-20191104121132711.png)
+![image-20191104113851516](https://github.com/Yufeng-L/EC601_5G_project/blob/master/result/trainfinal.png)
 
 
 
