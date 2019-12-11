@@ -15,10 +15,10 @@ def getImg(location):
 	# This is the image url.
 	x = str(location[0])
 	y = str(location[1])
-	image_url0  = "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=0&key=AIzaSyD7Pp-Yx-Hjr4k2Jk41wgQXsG57MdpARE0"
-	image_url90 = "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=90&key=AIzaSyD7Pp-Yx-Hjr4k2Jk41wgQXsG57MdpARE0"
-	image_url180= "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=180&key=AIzaSyD7Pp-Yx-Hjr4k2Jk41wgQXsG57MdpARE0"
-	image_url270= "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=270&key=AIzaSyD7Pp-Yx-Hjr4k2Jk41wgQXsG57MdpARE0"
+	image_url0  = "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=0&key="
+	image_url90 = "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=90&key="
+	image_url180= "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=180&key="
+	image_url270= "https://maps.googleapis.com/maps/api/streetview?size=2048x2048&fov=120&location="+x+","+y+"&heading=270&key="
 
 	# Open the url image, set stream to True, this will return the stream content.
 	resp0 = requests.get(image_url0, stream=True)
