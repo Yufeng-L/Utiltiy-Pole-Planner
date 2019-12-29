@@ -64,7 +64,7 @@ Some of the important patents are shown below:
  
  
 ## Flowchart
-![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/sprint2/systemdesign.png)
+![flowchart](https://github.com/Yufeng-L/EC601_5G_project/blob/master/img/systemdesign.png)
 
 ## Training via Tensorflow (Early training method)
 After doing image classification between poles and nopoles, here is the traning result for sprint2. Here is the training result for 15 epochs. (Results still need to be optimized. Validation rate is not high enough)
