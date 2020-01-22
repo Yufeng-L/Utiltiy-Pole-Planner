@@ -1,4 +1,4 @@
-# EC601 5G Utility Pole Planner 
+# Utility Pole Planner 
 Hello, this is the readme of 5G Utility Pole Planner.
 
 ### Team member: 
