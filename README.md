@@ -232,13 +232,7 @@ Let's start brutally,
 darknet.exe detector train .\data\voc.data yolov3-voc.cfg .\weights_pr\darknet53.conv.74 .\results_mine
 ```
 
-we can have series output in our cmd window:
-
-![image-20191104120811296](/Users/yuanwei/Library/Application Support/typora-user-images/image-20191104120811296.png)
-
-
-
-now we can do is to drink a cup of tea/coffee. Enjoy the sunshine and take a nap.
+we can have series output in our cmd window.
 
 Note: if you use CPU to deal with the traning part,  you can sleep for the whole day.
 
